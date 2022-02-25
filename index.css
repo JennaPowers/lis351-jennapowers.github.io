@@ -1,0 +1,11 @@
+ul {
+    position: fixed;
+    margin: auto;
+}
+li {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana;
+    size: 24px
+}
