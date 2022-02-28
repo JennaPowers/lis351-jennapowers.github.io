@@ -1,0 +1,148 @@
+body {
+    padding: 50px 200px;
+    background: linear-gradient(
+        to bottom left,
+        #ffe2b3,
+        #fef9ef
+    );
+}
+
+.container {
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.nav {
+    font-size: 25px;
+    font-family: 'Kalam';
+    margin-bottom: 0;
+    background-color: #227c9d;
+}
+
+.nav__list {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__list-ele {
+    float: left;
+}
+
+.nav__list-ele:hover {
+    float: left;
+    background: linear-gradient(
+        to bottom left,
+        #0093c0,
+        #00c2cc
+    );
+}
+
+.nav__link {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav__link a:hover {
+    background-color: bisque;
+}
+
+.content {
+    font-family: 'Kalam';
+}
+
+.content__heading {
+    margin-bottom: 15px;
+    color: black;
+    font-weight: bolder;
+    font-size: 29px;
+    text-decoration: none;
+    position: relative;
+    margin: 20px auto;
+    width: 30%;
+    margin-bottom: 10px;
+ }
+
+ .content__heading:hover {
+     transform: translateY(-5px);
+     color: rgb(58, 58, 58);
+ }
+
+.content__description {
+    display: inline-block;
+    width: 50%;
+    color: black;
+    padding: 5px 10px;
+    font-family: 'Kalam';
+}
+
+ .link {
+    text-decoration: none;
+    color: #227c9d;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 400px;
+    width: 400px; 
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.images--single {
+    height: auto; 
+    width: auto; 
+    max-width: 400px; 
+    max-height: 400px;
+}
+
+.main__content {
+    text-align: center;
+}
+
+.description {
+    text-align: left;
+    font-family: 'Kalam';
+    
+}
+
+.description__list {
+    position: relative; 
+    margin-top: 0;
+    width: 80%
+}
+
+.description__list--1 {
+    position: relative;
+    left: 160px;
+    margin-top: 0;
+}
+
+.description__list--2 {
+    position: relative;
+    left: 90px; 
+    margin-top: 0;
+}
+
+.description__item {
+     font-weight: bolder;
+}
+

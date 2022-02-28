@@ -1,11 +1,160 @@
-ul {
-    position: fixed;
-    margin: auto;
+body {
+    padding: 50px 200px;
+    background: linear-gradient(
+        to bottom left,
+        #ffe2b3,
+        #fef9ef
+    );
 }
-li {
-    display: inline;
+
+.container {
+    background-color: white;
+    height: 95vh;
+    font-family: 'Kalam';
+}
+
+.heading {
+    margin: 0 auto;
+}
+
+.nav {
+    font-size: 25px;
+    font-family: 'Kalam';
+    margin-bottom: 0;
+}
+
+.nav__list {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #227c9d;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__list-ele {
+    float: left;
+    
+}
+
+.nav__list-ele:hover {
+    float: left;
+    background: linear-gradient(
+        to bottom left,
+        #0093c0,
+        #00c2cc
+    );
+    
+}
+
+.nav__link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
     text-decoration: none;
-    color: black;
-    font-family: Verdana;
-    size: 24px
 }
+
+.nav__link a:hover {
+    background-color: bisque;
+}
+
+.main{
+    margin-top: 0;
+}
+
+.main__heading {
+    text-align: center;
+    background-color: #8bc795;
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.main__images {
+    display: flex;
+    justify-content: center;
+    padding: 100px 5px;
+}
+
+.image__cropper {
+    width:  400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 20px 15px 15px rgb(194, 194, 194);
+  }
+
+  .image__cropper--1 {
+    position: relative;
+    top: 100px;
+}    
+  
+  .image__cropper--2 {
+    position: relative;
+    top: -20px;
+  }   
+  
+  .image__cropper--3 {
+    position: relative;
+    top: 100px;
+  }
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+  }
+
+.main__subheading {
+      position: absolute;
+      top: 730px;
+      left: 920px;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+.image__label {
+   margin-bottom: 15px;
+   background-color: #1da0a8;
+   color: white;
+   font-weight: 300;
+   font-size: 30px;
+   letter-spacing: 0.3em;
+   width: 50%;
+   transform: translate(50%);
+}
+
+.image__label:hover {
+    background-color: #22aeb6;
+}
+
+.image__label--1 {
+    position: relative;
+    top: 100px;
+}
+
+.image__label--2 {
+    position: relative;
+    top: -20px;
+}
+
+.image__label--3 {
+    position: relative;
+    top: 100px;
+}
+
+.label__link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Slabo 27px', serif;
+}
+

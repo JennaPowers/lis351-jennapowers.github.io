@@ -3,23 +3,54 @@
     <head>
         <title>Page Title</title>
         <link rel="stylesheet" href="./index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Patrick+Hand&family=Slabo+27px&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./pages/brunch.html">Brunch</a>
-                </li>
-                <li>
-                    <a href="./pages/bakeries.html">Bakeries</a>
-                </li>
-                <li>
-                    <a href="./pages/dinner.html">Dinner</a>
-                </li>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list-ele">
+                        <a class="nav__link" href="./pages/brunch.html">Brunch</a>
+                    </li>
+                    <li class="nav__list-ele">
+                        <a class="nav__link" href="./pages/bakeries.html">Bakeries</a>
+                    </li>
+                    <li class="nav__list-ele">
+                        <a class="nav__link" href="./pages/dinner.html">Dinner</a>
+                    </li>
+                    <li class="nav__list-ele"> 
+                        <a class="nav__link" href="./index.html">Home</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="main">
+                <div class="main__heading">
+                    <h4 class="heading">See What Madison Has to Offer</h4>
+                </div>
+                <div class="main__images">
+                    <div>
+                        <span class="image__label image__label--1"><a class="label__link" href="./pages/brunch.html">Brunch</a></span>
+                        <div class="image__cropper image__cropper--1">
+                          
+                            <a href="./pages/brunch.html"><img src="./images/brunch.jpg" alt="Brunch"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="image__label image__label--2"><a class="label__link" href="./pages/bakeries.html">Bakeries</a></span>
+                        <div class="image__cropper image__cropper--2">
+                            <a href="./pages/bakeries.html"><img src="./images/bakery.jpg" alt="Bakeries"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="image__label image__label--3"><a class="label__link" href="./pages/dinner.html">Dinner</a></span>
+                        <div class="image__cropper image__cropper--3">
+                            <a href="./pages/dinner.html"><img src="./images/dinner.jpg" alt="Dinner"></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
     </body>
 </html>
